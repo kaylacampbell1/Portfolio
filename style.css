@@ -1,0 +1,165 @@
+body {
+  background: #240C31;
+  color: #B7B7B7;
+}
+header {
+  width: 100%;
+  padding-bottom: 20px;
+  padding-top: 25px;
+  padding-left: 25px;
+  padding-right: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #240C31;
+}
+footer p {
+  font-weight: 100;
+  text-align: center;
+}
+main {
+  width: 70%;
+  max-width: 900px;
+  display: block;
+  margin: 0 auto;
+}
+nav {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  margin-right: 35px;
+  width: 500px;
+}
+i {
+  font-size: 30px;
+}
+nav a {
+  text-decoration: none;
+  color: white;
+  font-size: 18px;
+  margin: 0px;
+  padding: 0px;
+}
+li {
+  line-height: 27px;
+}
+ul {
+  display: flex;
+}
+ul div {
+  margin-right: 50px;
+}
+button {
+  background: none;
+  border: 1px solid #FF7DD3;
+  color: #FF7DD3;
+  box-shadow: none;
+  border-radius: 5px;
+  padding: 8px 10px;
+  display: block;
+  margin: 0 auto;
+}
+#about button:hover {
+  cursor: pointer;
+}
+.pink {
+  color: #FF7DD3;
+}
+.white {
+  color: #FFFFFF;
+}
+#name-header {
+  font-size: 11px;
+}
+#intro {
+  margin-top: 300px;
+  padding-bottom: 100px;
+}
+#about-div, #intro {
+  display: flex;
+  justify-content: space-between;
+}
+.position p {
+  margin-top: 1px;
+  font-size: 18px;
+}
+.position h4 {
+  margin-bottom: 1px;
+}
+#about, #experiences, #projects, #education {
+  padding-top: 80px;
+  top: 200;
+}
+#info-about-me p, #hello p {
+  max-width: 450px;
+}
+#hello {
+  margin-top: 50px;
+}
+#intro-heading {
+  font-size: 42px;
+  margin-bottom: 2px;
+}
+#education-div, .projects-div, .experience {
+  background: #3B1452;
+  margin: 0 auto;
+}
+.experience {
+  padding: 2px 20px;
+  margin: 20px;
+}
+.projects-div {
+  padding: 20px;
+  margin-bottom: 30px;
+}
+.project-img {
+  max-width: 100%;
+}
+#kayla-img a{
+  text-decoration: none;
+}
+.tools {
+  display: flex;
+}
+.tools button {
+  margin: 10px;
+  width: 120px;
+  padding-left: 0;
+  padding-right: 0;
+}
+.view-code a, .view-site a, .view-project {
+  display: flex;
+  text-decoration: none;
+}
+.view-code a, .view-site a {
+  align-items: center;
+}
+.view-code *, .view-site * {
+  margin: 0;
+}
+.view-project {
+  justify-content: space-between;
+  width: 200px;
+  margin-top: 30px;
+}
+.view-project p {
+  margin-right: 3px;
+}
+#connect {
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+#connect span {
+  width: 300px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+#connect-heading {
+  margin-bottom: 0;
+}
