@@ -42,6 +42,9 @@ i {
 a {
   text-decoration: none;
 }
+a:has(i) {
+  margin-right: 10px;
+}
 nav a {
   color: white;
   font-size: 18px;
