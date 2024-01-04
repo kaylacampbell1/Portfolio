@@ -1,6 +1,8 @@
 body {
   background: #240C31;
   color: #B7B7B7;
+  display: flex;
+  flex-direction: column;
 }
 header {
   width: 100%;
@@ -23,7 +25,7 @@ footer p {
 }
 main {
   width: 70%;
-  max-width: 900px;
+  max-width: 777px;
   display: block;
   margin: 0 auto;
 }
@@ -49,9 +51,6 @@ nav a {
 li {
   line-height: 27px;
 }
-#about ul {
-  display: flex;
-}
 ul div {
   margin-right: 50px;
 }
@@ -64,6 +63,9 @@ button {
   padding: 8px 10px;
   display: block;
   margin: 0 auto;
+}
+#about ul {
+  display: flex;
 }
 #about button:hover {
   cursor: pointer;
@@ -103,7 +105,7 @@ button {
   margin-top: 50px;
 }
 #intro-heading {
-  font-size: 42px;
+  font-size: 37px;
   margin-bottom: 2px;
 }
 #education-div, .projects-div, .experience {
