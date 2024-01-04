@@ -1,6 +1,7 @@
 import { useState } from "react";
 import "../App.css";
 import kayla from "../assets/kayla.jpg";
+import resume from "../assets/resume.pdf";
 
 export default function AboutMe() {
 
@@ -46,7 +47,7 @@ export default function AboutMe() {
             alt="Image of Kayla Campbell"
           />
           <br />
-          <a href="./assets/resume.pdf" target="_blank">
+          <a href={resume} target="_blank">
             <button>View Resume</button>
           </a>
         </div>
