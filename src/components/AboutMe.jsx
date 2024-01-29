@@ -11,8 +11,7 @@ export default function AboutMe() {
       <div id="about-div">
         <div id="info-about-me">
           <p>
-            I am currently studying <b>Full-Stack Software Engineering</b>
-            at
+            I am currently studying <b>Full-Stack Software Engineering</b> at
             <a href="https://www.marcylabschool.org/" target="_blank">
               <b className="pink"> The Marcy Lab School </b>
             </a>
