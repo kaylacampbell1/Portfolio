@@ -12,7 +12,7 @@ export default function Nav() {
         <a href="#about">About</a>
         <a href="#experiences">Experience</a>
         <a href="#projects">Projects</a>
-        <a href="#education">Education</a>
+        {/* <a href="#education">Education</a> */}
         <a href="#connect">Contact Me</a>
       </nav>
     </header>

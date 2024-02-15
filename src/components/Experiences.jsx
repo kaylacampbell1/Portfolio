@@ -11,8 +11,20 @@ export default function Experiences() {
           <h3 className="pink">IBM</h3>
         </div>
         <div className="position">
+          <h4 className="white">Quality Assurance P-TECH Co-op</h4>
+          <p className="years">NOV 2023 - PRESENT</p>
+          <ul>
+            <li>Ongoing training in Ruby and the RSpec testing framework</li>
+          </ul>
+        </div>
+      </div>
+      <div className="experience">
+        <div className="company">
+          <h3 className="pink">IBM</h3>
+        </div>
+        <div className="position">
           <h4 className="white">Security & Compliance P-TECH Co-op</h4>
-          <p id="years">JUL 2022 - PRESENT</p>
+          <p className="years">JUL 2022 - NOV 2023</p>
           <ul>
             <li>
               Manage security risks by facilitating daily communication and
@@ -38,7 +50,7 @@ export default function Experiences() {
           <h4 className="white">
             Corporate Social Responsibility P-TECH Co-op
           </h4>
-          <p id="years">OCT 2021 - JUL 2022</p>
+          <p className="years">OCT 2021 - JUL 2022</p>
           <ul>
             <li>
               Assembled lesson plans and planned Hour of Code events that taught
@@ -60,7 +72,7 @@ export default function Experiences() {
         </div>
         <div className="position">
           <h4 className="white">Cloud & Cognitive Software P-TECH Intern</h4>
-          <p id="years">JUL 2021 - AUG 2021</p>
+          <p className="years">JUL 2021 - AUG 2021</p>
           <ul>
             <li>
               Completed internship business challenge to develop a cloud
